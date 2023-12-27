@@ -4,6 +4,9 @@ body{
     padding: center;
     font-size: 40px;
     background-color: azure ;
+    background-image: url(images/backround2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
@@ -11,7 +14,8 @@ h1{
     color: rgb(94, 9, 9);
     font-size: 48px;
     background-color: aqua;
-    padding: 10px 10px 10px 10px; 
+    padding: 1px;
+    margin: 0px; 
 }
 
 button{
@@ -24,6 +28,26 @@ background-image: url(images/rock.png);
     margin: 0 auto; /* Center the container horizontally */
     border: 2px solid black; /* Example border */
     padding: 20px; /* Example padding */
-    background-image: url(images/rock.png);
+    background-color: blue;
     background-repeat: no-repeat;
+}
+
+.score{
+    margin-left: 43%;
+    margin-top: 0px;
+    width:10%;
+    padding: 1px;
+    text-align:center;
+    color: rgb(153, 15, 15);
+    font-size: 48px;
+    background-color: rgb(63, 119, 119);
+     
+}
+
+.score1{
+    margin: 0% ;
+    padding:1px;
+    background-color: aquamarine;
+    text-align:center;
+
 }
