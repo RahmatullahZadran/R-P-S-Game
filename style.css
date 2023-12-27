@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    padding: 10px;
+    color: rgb(94, 9, 9);
+    padding: center;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(94, 9, 9);
+    font-size: 40px;
+}
+
+button{
+padding: 20px;
+background-color: black;
+background-image: url(imame);  
+}
+
+#round{
+    color: rgb(94, 9, 9);
+    font-size: 40px;
+    text-align: center;
+}
