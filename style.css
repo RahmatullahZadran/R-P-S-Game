@@ -1,25 +1,29 @@
 body{
     text-align: center;
-    padding: 10px;
     color: rgb(94, 9, 9);
     padding: center;
     font-size: 40px;
+    background-color: azure ;
 }
 
 h1{
     text-align: center;
     color: rgb(94, 9, 9);
-    font-size: 40px;
+    font-size: 48px;
+    background-color: aqua;
+    padding: 10px 10px 10px 10px; 
 }
 
 button{
 padding: 20px;
-background-color: black;
-background-image: url(imame);  
+background-image: url(images/rock.png);  
 }
 
-#round{
-    color: rgb(94, 9, 9);
-    font-size: 40px;
-    text-align: center;
+.container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 2px solid black; /* Example border */
+    padding: 20px; /* Example padding */
+    background-image: url(images/rock.png);
+    background-repeat: no-repeat;
 }
