@@ -19,8 +19,10 @@ h1{
 }
 
 button{
-padding: 20px;
-background-image: url(images/rock.png);  
+    width: 200px;
+    font-size: 30px;
+    padding: 20px;
+    background-image: url(images/rock.png);  
 }
 
 .container {
@@ -33,21 +35,37 @@ background-image: url(images/rock.png);
 }
 
 .score{
+    display:;
     margin-left: 43%;
-    margin-top: 0px;
+    margin-top: 0%;
     width:10%;
     padding: 1px;
     text-align:center;
     color: rgb(153, 15, 15);
     font-size: 48px;
     background-color: rgb(63, 119, 119);
-     
 }
 
-.score1{
-    margin: 0% ;
-    padding:1px;
-    background-color: aquamarine;
-    text-align:center;
+.round{
+    text-align:start;
+    max-width: 100px;
+    margin-bottom: -195px ;
+}
+p{
+    margin: 16px;
+}
 
+.rock{
+    font-style: italic;
+    background-image: url(images/backround2.jpg);
+}
+
+.paper{
+    font-style: italic;
+    background-image: url(images/backround2.jpg);
+}
+
+.scissors{
+    font-style: italic;
+    background-image: url(images/backround2.jpg);
 }
