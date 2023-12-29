@@ -57,17 +57,23 @@ p{
 
 .rock{
     font-style: italic;
-    background-image: url(images/backround2.jpg);
+    background-image: url(images/rock2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .paper{
     font-style: italic;
-    background-image: url(images/backround2.jpg);
+    background-image: url(images/paper.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .scissors{
     font-style: italic;
-    background-image: url(images/backround2.jpg);
+    background-image: url(images/scissors.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 img{
@@ -75,5 +81,5 @@ img{
     margin: 0px;
     margin-bottom: 2px;
     margin-left: 400px;
-    margin-top: -180px;
+    margin-top: -176px;
 }
